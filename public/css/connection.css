@@ -1,0 +1,58 @@
+/* navbar deconnection*/
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #081542;
+    color: white;
+    font-size: 20px;
+    justify-items: center;
+    
+}
+
+.nav{
+    margin-right: 80px;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-right: 30px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+   
+}
+.profil{
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+
+
+.nav1{
+    display: flex;
+}
+
+.nav2{
+    display: flex;
+}
+
+#deconnection{
+    background-color: #FFC441;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 30px;
+    border: 1px solid  #FFC441;
+    margin-top: 2px;
+}

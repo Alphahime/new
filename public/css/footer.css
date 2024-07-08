@@ -1,0 +1,241 @@
+/* Footer */
+/* Header */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1D275F;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.navbar {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.navbar li {
+    cursor: pointer;
+}
+
+#connection {
+    background-color: #FFC441;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: -35px;
+}
+.footer {
+    background-color: #1D275F;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .footer1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+    margin-bottom: 20px;
+}
+
+.footer .footer1 img {
+    height: 50px; 
+}
+
+.footer .footer1 input[type="text"] {
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+}
+
+.footer .footer1 #sinscrire {
+    background-color: #FFC441;
+    font-size: 20px;
+    padding: 7px 20px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.footer .footer2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .footer2 h2 {
+    color: #FFC441;
+    margin-bottom: 10px;
+}
+
+.footer .footer2 p {
+    margin: 5px 0;
+}
+
+.footer .footer2 ion-icon {
+    width: 30px; 
+    height: 30px; 
+    color: white;
+    margin-right: 10px;
+}
+
+#hr1,
+#hr2 {
+    width: 90%;
+    margin: 3rem auto;
+    border: 0.5px solid #ffffff;
+}
+
+#copyright {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav #connection {
+        margin-top: 10px;
+    }
+
+    .footer .footer1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .footer1 input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Styles généraux pour la version desktop */
+/* Pas de changements par rapport à votre CSS existant pour la version desktop */
+
+/* Media Query pour la version mobile et tablette */
+@media screen and (max-width: 768px) {
+    /* Header */
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #1D275F;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .nav .navbar {
+        flex-direction: column;
+        gap: 10px;
+        list-style: none;
+    }
+
+    .navbar li {
+        cursor: pointer;
+    }
+
+    #connection {
+        background-color: #FFC441;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+
+    /* Footer */
+    .footer {
+        background-color: #1D275F;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .footer .footer1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer .footer1 img {
+        height: 50px;
+    }
+
+    .footer .footer1 input[type="text"] {
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+        border: none;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .footer .footer1 #sinscrire {
+        background-color: #FFC441;
+        font-size: 20px;
+        padding: 7px 20px;
+        border: 1px solid white;
+        cursor: pointer;
+    }
+
+    .footer .footer2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .footer2 h2 {
+        color: #FFC441;
+        margin-bottom: 10px;
+    }
+
+    .footer .footer2 p {
+        margin: 5px 0;
+    }
+
+    .footer .footer2 ion-icon {
+        width: 30px;
+        height: 30px;
+        color: white;
+        margin-right: 10px;
+    }
+
+    #hr1,
+    #hr2 {
+        width: 90%;
+        margin: 3rem auto;
+        border: 0.5px solid #ffffff;
+    }
+
+    #copyright {
+        color: white;
+        margin-bottom: 20px;
+    }
+}
+

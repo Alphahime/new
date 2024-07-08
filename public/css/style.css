@@ -1,0 +1,444 @@
+
+
+/*age ajouter evenement*/
+
+.body,label{
+    font-family: poppins;
+    color:#1D275F ;
+    
+}
+
+
+
+
+
+#h1{
+    color: #1D275F;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nom, #lieu, #date, #nombre, #date_limite, #image, #description {
+    border-color: #FFC441;
+}
+
+#nom, #lieu, #date, #nombre, #image {
+    width: 100%;
+    height: 3rem;
+}
+
+#date_limite, #description {
+    width: 100%;
+}
+
+#ajouter_evenement {
+    width: 100%;
+    height: 3rem;
+    color: #1D275F;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.premier, .deuxieme {
+    display: flex;
+    gap: 2em;
+}
+
+.deuxieme{
+    display: flex;
+    gap: 4em;
+}
+/* page mes reservations*/
+.card{
+    border-color: #FFC441;
+    width: 600px;
+    margin: auto;
+   
+}
+
+#title{
+    text-align: center;
+}
+
+
+/*navbar et footer*/
+/* navbar*/
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #1D275F;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.nav{
+    display: flex;
+    gap: 30px;
+    
+
+    
+}
+
+
+
+.navbar{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    
+}
+
+#connection{
+    background-color: #FFC441;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+/* footer*/
+
+.footer{
+    background-color: #1D275F;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+#hr1{
+    width: 90%;
+}
+
+#hr2{
+    width: 90%;
+}
+
+#youtube{
+    width: 50px;
+    height: 40px;
+    color: white;
+}
+
+#facebook{
+    width: 50px;
+    height: 40px;
+    color: white;
+}
+
+#twitter{
+    width: 50px;
+    height: 40px;
+    color: white;
+}
+
+#instagram{
+    width: 50px;
+    height: 40px;
+    color: white;
+}
+
+#linkedin{
+    width: 50px;
+    height: 40px;
+    color: white;
+}
+
+#copyright{
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+#input{
+    width: 250px;
+    height: 40px;
+}
+
+#sinscrire{
+    background-color: #FFC441;
+    font-size: 20px;
+    padding: 10px;
+    
+    margin-top: 10px;
+}
+@media screen and (max-width:480px){
+/* footer*/
+
+.footer{
+    text-align: center;
+}
+.footer1{
+    display: block;
+}
+.footer2{
+    display: block;
+}
+    #h1{
+        text-align: center;
+    }
+    .premier, .deuxieme {
+        display: block;
+    }
+    .container {
+        width: 100%;
+        padding: 1rem;
+    }
+    #modifier_evenement {
+        width: 100%;
+    }
+
+    .burger-menu {
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+        margin: 1rem;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -250px;
+        width: 250px;
+        height: 100%;
+        background: #fff;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        transition: left 0.3s ease-in-out;
+        z-index: 1000;
+        padding: 1rem;
+    }
+
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .sidebar ul li {
+        margin-bottom: 1rem;
+    }
+
+    .sidebar ul li a {
+        text-decoration: none;
+        color: #1D275F;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .logout {
+        position: absolute;
+        bottom: 1rem;
+        width: 100%;
+    }
+
+    .logout a {
+        text-decoration: none;
+        color: #FF0000;
+        font-family: 'Poppins', sans-serif;
+        display: block;
+        text-align: center;
+    }
+
+    .sidebar.open {
+        left: 0;
+    }
+
+    
+
+    
+
+@media screen and (max-width: 480px) {
+    #h1 {
+        text-align: center;
+    }
+    .premier, .deuxieme {
+        display: block;
+    }
+    #description, #date_limite, #ajouter_evenement, #nom, #lieu, #nombre, #image, #date {
+        width: 100%;
+    }
+    .form {
+        padding: 2rem;
+    }
+    body {
+        overflow-x: hidden;
+        
+    }
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 800px;
+}
+#h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+body, label {
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+
+/* Styles pour la card d'informations */
+.card {
+    background-color: #08143f;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    flex: 1;
+    border-radius: 1rem;
+   
+}
+
+.card-info {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card-info p {
+    margin: 0;
+}
+
+/* Autres styles existants... */
+
+/* Bannière */
+.banniere {
+    width: 100%;
+    height: 300px; 
+    overflow: hidden;
+}
+
+.banniere img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Section 1 */
+.section1 {
+    display: flex;
+    margin-top: -100px; 
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.infos_detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    flex: 1;
+    padding: 20px;
+}
+
+.description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.description h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #888;
+}
+
+.description p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+#bouton_reserver {
+    display: inline-block;
+    background-color: #ffc441;
+    color: #08143f;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 2rem;
+    margin-top: 10px;
+}
+
+#bouton_reserver:hover {
+    background-color: #e0a800;
+}
+.popup {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+        }
+        .popup-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 300px;
+        }
+        .popup-content p {
+            margin: 20px 0;
+        }
+        .popup-buttons {
+            display: flex;
+            justify-content: space-around;
+        }
+        .popup-button {
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        .popup-button.confirm {
+            background-color: #FFC441;
+            color: #08143F;
+        }
+        .popup-button.cancel {
+            background-color: #e0a800;
+            color: #08143F;
+        }
+
+
+.card{
+    border-color: #FFC441;
+    width: 300px;
+    margin: auto;
+   
+}
+}
+
